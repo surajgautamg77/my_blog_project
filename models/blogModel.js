@@ -25,7 +25,7 @@ const blogSchema = new mongoose.Schema({
     type: String,
     required: [true, "a blog must have content"],
   },
-  auther: {
+  author: {
     type: String,
     required: [true, "blog must have an auther"],
   },
